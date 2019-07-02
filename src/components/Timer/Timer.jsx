@@ -4,7 +4,7 @@ import IntervalComponent from "../Interval/IntervalComponent";
 
 // main function
 const Timer = (props) => {
-    return (
+    return ( 
         <div className='card'>
             <div className="card-body">
                 <IntervalComponent/>
