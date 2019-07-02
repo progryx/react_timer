@@ -16,15 +16,13 @@ import Provider from './slomux/provider';
 import TimerComponent from "./components/Timer/TimerComponent";
 import {reducer} from "./slomux/reducer";
 import style from './assets/css/main.module.css'
-
+import 'bootstrap/dist/css/bootstrap.css';
 
 // init
-let init = { // начальное значение для стейта
-    currentInterval: 1
-}
+
 
 ReactDOM.render(<div className={style.wrapper}>
-    <Provider store={createStore(reducer,init)}>
+    <Provider store={createStore(reducer,{currentInterval: 1})}>
         <TimerComponent />
     </Provider></div>,
     document.getElementById('app')

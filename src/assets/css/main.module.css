@@ -1,12 +1,10 @@
-
-/*@font-face {*/
-    /*font-family: Poppins; !* Имя шрифта *!*/
-    /*src: url('../fonts/Poppins/Poppins-Regular.ttf'); !* Путь к файлу со шрифтом *!*/
-/*}*/
-
 .wrapper {
     display: grid;
     justify-items: center;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
 }
 
 .wrapper > div{

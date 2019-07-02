@@ -1,8 +1,11 @@
+
+//imports
 import {changeInterval} from "../../slomux/reducer";
 import React from "react";
 import connect from "../../slomux/connect";
 import Interval from "./Interval";
 
+//main function (container component)
 class IntervalComponent extends React.Component {
     render() {
         return (
