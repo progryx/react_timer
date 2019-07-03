@@ -22,7 +22,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 ReactDOM.render(<div className={style.wrapper}>
-    <Provider store={createStore(reducer,{currentInterval: 1})}>
+    <Provider store={createStore(reducer,{currentInterval: 1, disabledInterval: true, runningStatus: false})}>
         <TimerComponent />
     </Provider></div>,
     document.getElementById('app')

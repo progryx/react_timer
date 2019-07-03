@@ -4,7 +4,7 @@ import IntervalComponent from "../Interval/IntervalComponent";
 
 // main function
 const Timer = (props) => {
-    return ( 
+    return (
         <div className='card'>
             <div className="card-body">
                 <IntervalComponent/>
@@ -12,8 +12,12 @@ const Timer = (props) => {
                     Секундомер: {props.currentTime} сек.
                 </div>
                 <div className='btn-group w-100'>
-                    <button className='btn btn-success' onClick={props.handleStart}>Старт</button>
-                    <button className='btn btn-danger' onClick={props.handleStop}>Стоп</button>
+                    <button type='button' className='btn btn-success' disabled={props.runningStatus}
+                            onClick={props.handleStart}>Старт
+                    </button>
+                    <button type='button' className='btn btn-danger' disabled={!props.runningStatus}
+                            onClick={props.handleStop}>Стоп
+                    </button>
                 </div>
             </div>
         </div>
