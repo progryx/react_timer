@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca1886ca-1a3d-4e4f-85fe-4abe3b25eefd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Interval/Interval.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Interval/Interval.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Interval/IntervalComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Interval/IntervalComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Timer/Timer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Timer/Timer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Timer/TimerComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Timer/TimerComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/slomux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/slomux/reducer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimerComponent.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TimerComponent.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Timer/TimerComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <state relative-caret-position="294">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="e#11#37#0" expanded="true" />
               </folding>
@@ -76,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntervalComponent.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IntervalComponent.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Interval/IntervalComponent.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -108,6 +103,7 @@
       <find>context</find>
       <find>state</find>
       <find>button</find>
+      <find>debugger</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,11 +129,11 @@
         <option value="$PROJECT_DIR$/src/components/Interval/interval.module.css" />
         <option value="$PROJECT_DIR$/src/assets/css/main.module.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Timer/TimerComponent.js" />
         <option value="$PROJECT_DIR$/src/slomux/reducer.js" />
         <option value="$PROJECT_DIR$/src/components/Interval/Interval.jsx" />
         <option value="$PROJECT_DIR$/src/components/Timer/Timer.jsx" />
         <option value="$PROJECT_DIR$/src/components/Interval/IntervalComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/Timer/TimerComponent.js" />
       </list>
     </option>
   </component>
@@ -280,7 +276,7 @@
       <workItem from="1562007041370" duration="9674000" />
       <workItem from="1562017203134" duration="374000" />
       <workItem from="1562053806881" duration="7198000" />
-      <workItem from="1562142297028" duration="6970000" />
+      <workItem from="1562142297028" duration="7550000" />
     </task>
     <task id="LOCAL-00001" summary="Created project">
       <created>1562017440126</created>
@@ -310,11 +306,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562061511846</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed minor bugs, added conditions to the counter.">
+      <created>1562149326254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562149326255</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38001000" />
+    <option name="totallyTimeSpent" value="38581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -323,13 +326,13 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11386919" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50197005" side_tool="true" visible="true" weight="0.32963374" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50197005" side_tool="true" visible="true" weight="0.32963374" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49802995" weight="0.32963374" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3263041" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49802995" visible="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49802995" visible="true" weight="0.32963374" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -377,7 +380,8 @@
     <MESSAGE value="Created project, updated" />
     <MESSAGE value="Added styles" />
     <MESSAGE value="Final Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Commit" />
+    <MESSAGE value="Fixed minor bugs, added conditions to the counter." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed minor bugs, added conditions to the counter." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -728,22 +732,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Timer/TimerComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="e#11#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Interval/IntervalComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
           <folding>
             <element signature="e#11#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Timer/TimerComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#11#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

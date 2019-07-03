@@ -11,8 +11,11 @@ class TimerContainer extends React.Component{
         currentTime: 0
     };
     intervalID = 0;
+    componentWillUnmount() {
+        clearInterval(this.intervalID);
+    }
+
     render() {
-        //debugger;
         return (
            <Timer {...this.props}
                   currentTime={this.state.currentTime}
