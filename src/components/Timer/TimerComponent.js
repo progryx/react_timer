@@ -13,7 +13,7 @@ class TimerContainer extends React.Component{
     intervalID = 0;
     componentWillUnmount() {
         clearInterval(this.intervalID);
-    }
+    };
 
     render() {
         return (
@@ -23,20 +23,20 @@ class TimerContainer extends React.Component{
                   handleStop={this.handleStop}
            />
         )
-    }
+    };
     // start event
     handleStart = () => {
         this.props.toggleTimer(true);
         this.intervalID = setInterval(() => this.setState({
             currentTime: this.state.currentTime + this.props.currentInterval
-        }), this.props.currentInterval+'000') // интервал будет работать через каждые currentInterval секунд.
-    }
+        }), this.props.currentInterval*1000); // интервал будет работать через каждые currentInterval секунд.
+    };
     //stop event
     handleStop = () => {
         this.props.toggleTimer(false);
         this.setState({ currentTime: 0}); // обнуляем стейт
         clearInterval(this.intervalID); // останавливаем отсчет
-    }
+    };
 }
 
 
